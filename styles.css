@@ -1,0 +1,54 @@
+img-thumbs {
+			max-width: 400px;
+		}
+
+img {
+			max-width: 400px;
+		}
+
+/* set a max-width for horizontal fluid layout and make it centered */
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 800px; /* or 950px */
+}
+
+.form-group input[type="checkbox"]{
+	display: none;
+}
+
+.form-group input[type="checkbox"] + .btn-group > label{
+	white-space: normal;
+}
+
+.form-group input[type="checkbox"] + .btn-group > label.btn-primary{
+	color: #fff;
+	background-color: #428bca;
+	border-color: #357ebd;
+}
+
+
+.form-group input[type="checkbox"] + .btn-group > label span:first-child{
+	display: none;
+}
+
+
+.form-group input[type="checkbox"] + .btn-group > label span:first-child + span{
+	display: inline-block;
+}
+
+
+.form-group input[type="checkbox"]:checked + .btn-group > label span:first-child{
+	display: inline-block;
+}
+
+
+.form-group input[type="checkbox"]:checked + .btn-group > label span:first-child + span{
+	display: none;  
+}
+
+
+
+.form-group input[type="checkbox"] + .btn-group > label span.content{
+	margin-left: 10px;
+}
